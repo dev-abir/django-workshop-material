@@ -1,7 +1,7 @@
 # conditional branching
 age = 6
 
-if (age >= 18):
+if age >= 18:
     print("adult")
 elif age >= 60:
     print("senior citizen")

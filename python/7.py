@@ -20,7 +20,7 @@ oggy.print_num_eyes()
 
 
 # Cat is also an Animal
-def double_eyes(animal: Animal):
+def double_eyes(animal):
     print(animal.num_eyes * 2)
 
 
