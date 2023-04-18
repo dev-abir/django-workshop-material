@@ -1,0 +1,21 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+*{
+    font-size: 25px;
+}
+
+#outerDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+textarea {
+    color: red;
+}

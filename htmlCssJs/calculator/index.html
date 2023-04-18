@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Calculator</title>
+    </head>
+    <body>
+        <div id="outerDiv">
+            <div class="innerBlocks">
+                <label for="inpA">a=</label>
+                <input type="number" id="inpA" placeholder="0" />
+                <label for="inpB">b=</label>
+                <input type="number" id="inpB" placeholder="0" />
+            </div>
+
+            <div class="innerBlocks">
+                <button id="btnAdd">+</button>
+                <button id="btnSub">-</button>
+                <button id="btnDiv">/</button>
+                <button id="btnMul">*</button>
+            </div>
+
+            <textarea class="innerBlocks" id="taSol" disabled>solution</textarea>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
